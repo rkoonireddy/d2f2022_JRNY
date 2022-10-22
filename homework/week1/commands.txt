@@ -1,0 +1,29 @@
+
+  Id     Duration CommandLine
+  --     -------- -----------
+ 104        0.018 echo "hello world" | new-item -path D:/Studies/"Sem "2/"Digital tools for finance"/Assignments/Exercises/Assignmen…
+ 105        0.013 ls
+ 106        0.046 stop-process -id 666
+ 107        0.414 get-process
+ 108        0.106 stop-process -id 666
+ 109        0.015 $env:path | new-item path.txt
+ 110       17.606 get-childitem -path c:/ -recurse -include *.png
+ 111        0.055 get-command echo
+ 112        0.018 get-command write-output
+ 113        0.108 get-cmdlet write-output
+ 114        0.021 dir -command write-output
+ 115        0.037 dir write-output
+ 116        0.003 dir -path C:/ write-output
+ 117       32.388 dir -path C:/ -recurse -include  write-output
+ 118        4.690 get-help ps
+ 119        0.287 update -help
+ 120     1:46.700 update-help
+ 121        0.072 get-history -30 
+ 122        0.050 get-history 30 
+ 123        0.111 get-history
+ 124        0.029 get-history -count 30
+ 125        1.733 get-history -count 25 | new-item commands.txt 
+ 126        0.073 ls
+ 127        0.005 rm commands.txt
+ 128        0.123 get-history -count 25 > new-item commands.txt
+

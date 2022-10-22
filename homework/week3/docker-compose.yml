@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+      first-plot:
+        image: first-plot
+        container_name: first-plot
+        ports:
+          - 8080:8080
